@@ -262,15 +262,15 @@ public final class Constants {
       public static double bumpFrequency = 0.5;
       public static double bumpTimerDeadband = Intake.bumpFrequency / 3;
       public static double bottomPosition = 0;
-      public static double bumpPosition = 0.1;
+      public static double bumpPosition = 0.092;
       /**
        * Rotations Per Second
        */
-      public static double minimumRollerVelocity = 10.0;
+      public static double minimumRollerVelocity = 100.0;
       /**
        * Rotations Per Second
        */
-      public static double maximumRollerVelocity = 1000.0;
+      public static double maximumRollerVelocity = 10000.0;
   }
 
 }
