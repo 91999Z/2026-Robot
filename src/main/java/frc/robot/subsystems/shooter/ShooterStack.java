@@ -95,8 +95,8 @@ public class ShooterStack {
                     : 65
             );
         } else {
-//            flywheel.setVelocity(idleVelocity);
-            flywheel.setVelocity(0);
+            flywheel.setVelocity(idleVelocity);
+           // flywheel.setVelocity(0);
         }
 
 //        if (turret.getVelocity() > Constants.Shooter.Turret.velocityLimit) {
